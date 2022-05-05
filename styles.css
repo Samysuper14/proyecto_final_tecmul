@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Oleo+Script+Swash+Caps&family=Permanent+Marker&display=swap');
+
+body{
+    margin: 0;
+}
+
+.top{
+    overflow: hidden;
+    background-color: rgb(216, 145, 112);
+    height: 80px;
+    font-family: 'Koulen', cursive;
+    font-size: 25px;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: rgb(238, 208, 194);
+    height: 40px;
+    font-family: 'Koulen', cursive;
+    font-size: 20px;
+}
+
+.navbar a{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 16px;
+    transition: .250s;
+}
+
+.navbar a:hover{
+    background-color: rgb(235, 172, 143);
+    color: rgb(117, 117, 117);
+}
+
+.navbar a.active{
+    background-color: bisque;
+    transition: .250s;
+}
+
+.navbar a.active:hover{
+    color: rgb(141, 141, 141);
+}
+
+.parallax1{
+    background-image: url(./img/pug_frustado.jpg);
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2{
+    background-image: url(./img/niño.jpg);
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3{
+    background-image: url(./img/vestido_niña.jpg);
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content{
+    background-color: bisque;
+}
+
+.content h1{
+    text-align: center;
+    background-color: bisque;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#carrito{
+    float: right;
+}
